@@ -14,7 +14,7 @@ routines.
 
 ## 1. Installation
 * Clone the GitHub repo locally in a folder called 'LiverpoolFC'.
-* Ensure you have python3 installed on your machine (details can be found [here][https://www.python.org]).
+* Ensure you have python3 installed on your machine (details can be found [here](https://www.python.org).
 * Set up a virtual environment for the project by running the following commands:
   * python -m pip install pip
   * pip install virtualenv
