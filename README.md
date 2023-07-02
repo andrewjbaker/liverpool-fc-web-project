@@ -13,10 +13,25 @@ routines.
 3. Credits
 
 ## 1. Installation
-Something here
+* Clone the GitHub repo locally in a folder called 'LiverpoolFC'.
+* Ensure you have python3 installed on your machine.
+* Set up a virtual environment for the project by running the following commands:
+  * python -m pip install pip
+  * pip install virtualenv
+  * pip install virtualenvwrapper
+* For MacOS users, place the following code in your ~/.zshrc file:
+
+```bash
+# Setting PATH for Python 3 installed by brew if it is not present
+export PATH=/usr/local/share/python:$PATH
+# Configuration for virtualenv
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv source /usr/local/bin/virtualenvwrapper.sh
+```
 
 ## 2. Usage
 Something here
 
 ## 3. Credits
-Developed by Andrew Baker (GitHub: andrewjbaker) as part of the University of Edinburgh and HyperionDev Software Engineering Online Bootcamp (2023).
+Developed by Andrew Baker (GitHub: andrewjbaker) as part of the University of 
+Edinburgh and HyperionDev Software Engineering Online Bootcamp (2023).
