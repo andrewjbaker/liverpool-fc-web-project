@@ -9,6 +9,7 @@
 
             <br />
 
+            <!-- Error message if registration fails -->
             {% if error_message %}
                 <div class="row">
                     <div class="col-md-3">
@@ -23,6 +24,7 @@
             <br />
             {% endif %}
 
+            <!-- Form to capture member details in order to register and create an account -->
             <form action="{% url 'membership:registration' %}" method="post">
                 {% csrf_token %}
                 <div class="form-group row">

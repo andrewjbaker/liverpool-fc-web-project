@@ -9,6 +9,7 @@
 
             <br />
 
+            <!-- Error message displayed if login was unsuccessful -->
             {% if error_message %}
                 <div class="row">
                     <div class="col-md-4">
@@ -23,6 +24,7 @@
                 <br />
             {% endif %}
 
+            <!-- Form to capture member email address and password to log in -->
             <form action="{% url 'membership:authenticate' %}" method="post">
                 {% csrf_token %}
                 <div class="form-group row">
