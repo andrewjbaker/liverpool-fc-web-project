@@ -14,7 +14,8 @@ routines.
 
 ## 1. Installation
 * Clone the GitHub repo locally in a folder called 'LiverpoolFC'.
-* Ensure you have python3 installed on your machine (details can be found [here](https://www.python.org)).
+* Ensure you have python3 installed on your machine (details can be found
+  [here](https://www.python.org)).
 * Set up a virtual environment for the project by running the following commands:
   * python -m pip install pip
   * pip install virtualenv
@@ -26,12 +27,40 @@ routines.
 export PATH=/usr/local/share/python:$PATH
 # Configuration for virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv source /usr/local/bin/virtualenvwrapper.sh
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3 export 
+VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv source
+/usr/local/bin/virtualenvwrapper.sh
+```
+
+* Open a command line window and type the following to set up your virtual
+* environment and install Django:
+
+```bash
+mkvirtualenv my_django
+workon my_django
+pip install django
 ```
 
 ## 2. Usage
-Something here
+To run the website locally, navigate to the top level LiverpoolFC folder you 
+created during installation and type the following commands:
+
+```bash
+workon my_django
+python manage.py runserver
+```
+
+The website can be accessed at ```http://127.0.0.1:8000/website```.
+
+To access the admin functionality, you need to create a superuser account by
+entering ```python manage.py createsuperuser``` at the command line.  The 
+admin access is available at ```http://127.0.0.1:8000/admin```.
+
 
 ## 3. Credits
 Developed by Andrew Baker (GitHub: andrewjbaker) as part of the University of 
 Edinburgh and HyperionDev Software Engineering Online Bootcamp (2023).
+
+## 4. URL
+You can access the repository for this project 
+[here](https://github.com/andrewjbaker/liverpool-fc-web-project)
