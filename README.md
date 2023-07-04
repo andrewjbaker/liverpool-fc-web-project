@@ -36,7 +36,7 @@ VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv source
 * Open a command line window and type the following to set up your virtual
   environment and install Django:
 
-```bash
+```
 mkvirtualenv my_django
 workon my_django
 pip install django
