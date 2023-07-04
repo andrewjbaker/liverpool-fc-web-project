@@ -7,6 +7,10 @@ Django user/ authentication solution and a competition area which allows an
 admin use to load competition 'posts' and makes use of Django authentication
 routines.
 
+DISCLAIMER: this is a personal project and is in no way affiliated with Liverpool
+Football Club.  The development of this project is for personal use only, and
+any demonstrations of features (e.g. competitions) are exemplars only.
+
 ## Table of contents
 1. Installation
 2. Usage
@@ -53,6 +57,18 @@ python manage.py runserver
 
 The website can be accessed at ```http://127.0.0.1:8000/website```.
 
+<img width="1440" alt="Liverpool FC Django project home page" src="https://github.com/andrewjbaker/liverpool-fc-web-project/assets/111700184/c894810a-4939-4cf8-ab34-e148546d0dd0">
+
+From the home page you are able to use the navigation bar at the top to 
+register as a member and login using your email address and password (see
+below), which will enable you to access member area content such as the
+live competitions.
+
+<img width="1432" alt="Django project registration page example" src="https://github.com/andrewjbaker/liverpool-fc-web-project/assets/111700184/9661d1c7-7604-462f-b678-342943a1e6d3">
+
+<img width="1434" alt="Django project member login information page" src="https://github.com/andrewjbaker/liverpool-fc-web-project/assets/111700184/1980afff-4edc-4824-885c-75f1df12a11e">
+
+### 2.1. Admin functionality
 To access the admin functionality, you need to create a superuser account by
 entering ```python manage.py createsuperuser``` at the command line.  The 
 admin access is available at ```http://127.0.0.1:8000/admin```.
