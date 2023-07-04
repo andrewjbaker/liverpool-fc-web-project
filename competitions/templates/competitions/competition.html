@@ -4,6 +4,7 @@
 {% csrf_token %}
 
 {% block content %}
+    <!-- Competion title and information-->
     <h4><a href="/competitions/{{competition.id}}">{{ competition.title }}</a> launched {{ competition.date }}</h4>
     <br /> <br />
     <div class = "container">
@@ -12,6 +13,7 @@
     
     <br /> 
     
+    <!-- Entry button -->
     <form action="{% url 'competitions:enter' competition.id %}" method="post"> 
         {% csrf_token %}
 
