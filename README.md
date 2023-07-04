@@ -33,7 +33,7 @@ VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv source
 ```
 
 * Open a command line window and type the following to set up your virtual
-* environment and install Django:
+  environment and install Django:
 
 ```bash
 mkvirtualenv my_django
@@ -63,4 +63,4 @@ Edinburgh and HyperionDev Software Engineering Online Bootcamp (2023).
 
 ## 4. URL
 You can access the repository for this project 
-[here](https://github.com/andrewjbaker/liverpool-fc-web-project)
+[here](https://github.com/andrewjbaker/liverpool-fc-web-project).
