@@ -58,7 +58,7 @@ python manage.py runserver
 The website can be accessed at ```http://127.0.0.1:8000/```.
 &nbsp;
 
-<img width="1400" alt="Liverpool FC Django project home page" src="https://github.com/andrewjbaker/liverpool-fc-web-project/assets/111700184/c894810a-4939-4cf8-ab34-e148546d0dd0">
+<img width="1440" alt="Home" src="https://github.com/andrewjbaker/liverpool-fc-web-project/assets/111700184/2c27f543-8014-4454-8a06-49f9d7f20731">
 &nbsp;
  
 From the home page you are able to use the navigation bar at the top to 
@@ -67,10 +67,10 @@ below), which will enable you to access member area content such as the
 live competitions.
 &nbsp;
 
-<img width="1400" alt="Django project registration page example" src="https://github.com/andrewjbaker/liverpool-fc-web-project/assets/111700184/9661d1c7-7604-462f-b678-342943a1e6d3">
+<img width="1440" alt="Register" src="https://github.com/andrewjbaker/liverpool-fc-web-project/assets/111700184/a6f1e9fa-9619-4ca0-8c8d-6a3d77e7d0aa">
 &nbsp;
 
-<img width="1400" alt="Django project member login information page" src="https://github.com/andrewjbaker/liverpool-fc-web-project/assets/111700184/1980afff-4edc-4824-885c-75f1df12a11e">
+<img width="1440" alt="Member" src="https://github.com/andrewjbaker/liverpool-fc-web-project/assets/111700184/0f191938-fd2e-4d85-b0aa-98a1e155740f">
 &nbsp;
  
 ### 2.1. Admin functionality
@@ -79,7 +79,7 @@ entering ```python manage.py createsuperuser``` at the command line.  The
 admin access is available at ```http://127.0.0.1:8000/admin```.
 &nbsp;
 
-<img width="1436" alt="Django admin view" src="https://github.com/andrewjbaker/liverpool-fc-web-project/assets/111700184/f253c748-f481-4431-a696-5c61fd105f33">
+<img width="1440" alt="Admin" src="https://github.com/andrewjbaker/liverpool-fc-web-project/assets/111700184/c3a4ea91-1858-4aac-b94e-188f0faaa04f">
 &nbsp;
 
 
