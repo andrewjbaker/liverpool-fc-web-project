@@ -55,7 +55,7 @@ workon my_django
 python manage.py runserver
 ```
 
-The website can be accessed at ```http://127.0.0.1:8000/website```.
+The website can be accessed at ```http://127.0.0.1:8000/```.
 &nbsp;
 
 <img width="1400" alt="Liverpool FC Django project home page" src="https://github.com/andrewjbaker/liverpool-fc-web-project/assets/111700184/c894810a-4939-4cf8-ab34-e148546d0dd0">
